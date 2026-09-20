@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slow Fight – Privacy Policy</title>
+<meta name="description" content="Privacy policy for the Android game Slow Fight. The game collects no personal information.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700;1,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --night: #120A2E;
+    --panel: #1D1350;
+    --ink: #ECE6F8;
+    --ink-soft: #B9AED6;
+    --amber: #FFC46B;
+    --ember: #E2506B;
+    --gold: #FFD27F;
+    --display: "Barlow Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    --text: "Source Serif 4", Georgia, "Times New Roman", serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { background: var(--night); }
+
+  body {
+    margin: 0;
+    color: var(--ink);
+    background: var(--night);
+    font-family: var(--text);
+    font-size: 1.125rem;
+    line-height: 1.7;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /* ---------- masthead: the game's dusk sky ---------- */
+  .sky {
+    position: relative;
+    overflow: hidden;
+    min-height: 26rem;
+    padding: 4.5rem 1.5rem 9.5rem;
+    background:
+      radial-gradient(1.5px 1.5px at 8% 14%, #fff 50%, transparent 51%),
+      radial-gradient(1px 1px at 17% 32%, #fff 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 31% 10%, #fff 50%, transparent 51%),
+      radial-gradient(1px 1px at 44% 26%, #fff 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 58% 12%, #fff 50%, transparent 51%),
+      radial-gradient(1px 1px at 71% 30%, #fff 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 86% 16%, #fff 50%, transparent 51%),
+      radial-gradient(1px 1px at 93% 34%, #fff 50%, transparent 51%),
+      linear-gradient(180deg, #080C2E 0%, #1F1A66 30%, #6A2C91 54%, #E2506B 78%, #FF9A57 100%);
+  }
+
+  .sky svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sky-copy {
+    position: relative;
+    max-width: 44rem;
+    margin: 0 auto;
+  }
+
+  .game {
+    margin: 0 0 0.4rem;
+    font-family: var(--display);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+    color: #FFE0B2;
+  }
+
+  h1 {
+    margin: 0;
+    font-family: var(--display);
+    font-style: italic;
+    font-weight: 800;
+    font-size: clamp(3.4rem, 11vw, 6.2rem);
+    line-height: 0.95;
+    letter-spacing: 0.01em;
+    padding-right: 0.15em;
+    color: var(--amber);
+    background: linear-gradient(180deg, #FFF59D 0%, #FFC107 55%, #FF6D00 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.45));
+  }
+
+  .updated {
+    margin: 1.1rem 0 0;
+    font-size: 1rem;
+    color: #FFE0B2;
+  }
+
+  /* ---------- reading column ---------- */
+  main {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem 4rem;
+  }
+
+  /* the one signature shape: a plate with two cut corners, like the game's buttons */
+  .plate {
+    --cut: 22px;
+    position: relative;
+    margin: 0 0 3.25rem;
+    padding: 1.7rem 1.9rem 1.8rem;
+    background: linear-gradient(135deg, var(--amber), var(--ember));
+    clip-path: polygon(var(--cut) 0, 100% 0, 100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%, 0 100%, 0 var(--cut));
+  }
+
+  .plate::before {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: var(--panel);
+    clip-path: polygon(calc(var(--cut) - 1px) 0, 100% 0, 100% calc(100% - var(--cut) + 1px), calc(100% - var(--cut) + 1px) 100%, 0 100%, 0 calc(var(--cut) - 1px));
+  }
+
+  .plate > * { position: relative; }
+
+  .plate h2 { margin-top: 0; }
+
+  main h2 {
+    margin: 3rem 0 0.6rem;
+    font-family: var(--display);
+    font-style: italic;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1.1;
+    letter-spacing: 0.01em;
+    color: var(--gold);
+  }
+
+  main p { margin: 0 0 1.1rem; }
+
+  .lead { font-size: 1.25rem; }
+
+  ul.plain {
+    margin: 0 0 1.1rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  ul.plain li {
+    position: relative;
+    margin: 0 0 0.45rem;
+    padding-left: 1.5rem;
+  }
+
+  ul.plain li::before {
+    content: "";
+    position: absolute;
+    left: 0.15rem;
+    top: 0.7em;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: var(--amber);
+    transform: rotate(45deg);
+  }
+
+  dl { margin: 0 0 1.1rem; }
+
+  dt {
+    margin-top: 1.1rem;
+    font-weight: 600;
+    color: var(--gold);
+  }
+
+  dd {
+    margin: 0.1rem 0 0;
+    color: var(--ink);
+  }
+
+  a {
+    color: var(--amber);
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 1px;
+  }
+
+  a:hover { color: #fff; }
+
+  a:focus-visible {
+    outline: 2px solid var(--amber);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  .note {
+    color: var(--ink-soft);
+    font-size: 1rem;
+  }
+
+  footer {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem 3rem;
+    border-top: 1px solid rgba(255, 196, 107, 0.25);
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 34rem) {
+    body { font-size: 1.05rem; }
+    .sky { padding-top: 3.25rem; min-height: 22rem; }
+    .plate { padding: 1.4rem 1.3rem 1.5rem; }
+    main h2 { font-size: 1.75rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="sky">
+  <svg viewBox="0 0 1200 420" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+    <circle cx="600" cy="335" r="190" fill="#FFD27F" opacity="0.18"/>
+    <circle cx="600" cy="335" r="120" fill="#FFD27F" opacity="0.28"/>
+    <g transform="translate(930,120) rotate(12)" fill="#140A30">
+      <g>
+        <rect x="-1.5" y="14" width="3" height="46" fill="#fff" opacity="0.35"/>
+        <rect x="-1.5" y="60" width="3" height="60" fill="#fff" opacity="0.14"/>
+        <path d="M0 -15 L1.5 -12.6 L2.1 -3 L16.5 2.4 L16.5 5.4 L2.4 4.2 L2.1 10.2 L7.8 13.8 L7.8 15.6 L0 14.1 L-7.8 15.6 L-7.8 13.8 L-2.1 10.2 L-2.4 4.2 L-16.5 5.4 L-16.5 2.4 L-2.1 -3 L-1.5 -12.6 Z" opacity="0.92"/>
+      </g>
+      <g transform="translate(-30,34)">
+        <rect x="-1.5" y="14" width="3" height="46" fill="#fff" opacity="0.35"/>
+        <rect x="-1.5" y="60" width="3" height="60" fill="#fff" opacity="0.14"/>
+        <path d="M0 -15 L1.5 -12.6 L2.1 -3 L16.5 2.4 L16.5 5.4 L2.4 4.2 L2.1 10.2 L7.8 13.8 L7.8 15.6 L0 14.1 L-7.8 15.6 L-7.8 13.8 L-2.1 10.2 L-2.4 4.2 L-16.5 5.4 L-16.5 2.4 L-2.1 -3 L-1.5 -12.6 Z" opacity="0.92"/>
+      </g>
+      <g transform="translate(30,34)">
+        <rect x="-1.5" y="14" width="3" height="46" fill="#fff" opacity="0.35"/>
+        <rect x="-1.5" y="60" width="3" height="60" fill="#fff" opacity="0.14"/>
+        <path d="M0 -15 L1.5 -12.6 L2.1 -3 L16.5 2.4 L16.5 5.4 L2.4 4.2 L2.1 10.2 L7.8 13.8 L7.8 15.6 L0 14.1 L-7.8 15.6 L-7.8 13.8 L-2.1 10.2 L-2.4 4.2 L-16.5 5.4 L-16.5 2.4 L-2.1 -3 L-1.5 -12.6 Z" opacity="0.92"/>
+      </g>
+    </g>
+    <path d="M0 420 V300 L90 250 L170 300 L280 230 L380 300 L500 240 L620 310 L740 235 L860 300 L980 245 L1100 300 L1200 260 V420 Z" fill="#4A2270"/>
+    <path d="M0 420 V350 L120 305 L220 350 L340 300 L470 355 L590 310 L720 360 L850 312 L960 358 L1080 320 L1200 355 V420 Z" fill="#2C1352"/>
+    <path d="M0 420 V385 L140 360 L260 388 L400 355 L540 390 L680 362 L820 392 L960 364 L1100 390 L1200 372 V420 Z" fill="#120A2E"/>
+  </svg>
+
+  <div class="sky-copy">
+    <p class="game">Slow Fight</p>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated September 20, 2026</p>
+  </div>
+</header>
+
+<main>
+
+  <aside class="plate" aria-labelledby="short">
+    <h2 id="short">The short version</h2>
+    <ul class="plain">
+      <li>Slow Fight collects no personal information.</li>
+      <li>There are no accounts, no ads and no analytics.</li>
+      <li>Your score, coins and settings stay on your phone.</li>
+      <li>Purchases are handled entirely by Google Play.</li>
+    </ul>
+    <p class="note" style="margin:0">The sections below explain each point in detail.</p>
+  </aside>
+
+  <section id="who">
+    <h2>Who we are</h2>
+    <p>Slow Fight (“the game”) is an Android game published by AD_oisal Ahmed (“we”, “us”). If you have any question about this policy, write to us at <a href="mailto:md69309@gmail.com">md69309@gmail.com</a>.</p>
+  </section>
+
+  <section id="collect">
+    <h2>Information we collect</h2>
+    <p class="lead">None.</p>
+    <p>The game does not ask for your name, email address, phone number or any other personal detail. It has no sign-in, and it does not use your location, contacts, camera, microphone, photos or files. It contains no advertising, analytics or crash-reporting services, and it does not send information to servers run by us.</p>
+  </section>
+
+  <section id="device">
+    <h2>What is stored on your device</h2>
+    <p>To remember your progress, the game keeps a small amount of data in its private storage on your phone:</p>
+    <dl>
+      <dt>High score</dt>
+      <dd>Your best score, shown on the main screen.</dd>
+      <dt>Coin balance</dt>
+      <dd>The coins you have collected or bought.</dd>
+      <dt>Planes</dt>
+      <dd>Which planes you have unlocked and which one you selected.</dd>
+      <dt>Sound settings</dt>
+      <dd>Whether background music and sound effects are on.</dd>
+      <dt>Purchase records</dt>
+      <dd>Identifiers of completed purchases, kept only so the same purchase is never credited twice.</dd>
+    </dl>
+    <p>This data never leaves your device. Other apps cannot read it, and it is deleted when you uninstall the game or clear its storage.</p>
+  </section>
+
+  <section id="purchases">
+    <h2>In-app purchases</h2>
+    <p>Coin packs are sold through Google Play Billing. Payment happens inside Google Play, so your card number, payment method and billing details go to Google and are never visible to the game or to us.</p>
+    <p>Google provides us with standard sales records in Play Console, such as the order number, the product, the amount, and the country and date of purchase. We use these only for accounting, refunds and customer support. How Google handles your payment information is described in the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> and the <a href="https://play.google.com/about/play-terms/" rel="noopener">Google Play Terms of Service</a>.</p>
+  </section>
+
+  <section id="third-parties">
+    <h2>Third-party services</h2>
+    <p>The only outside service the game works with is Google Play, through the Google Play Billing Library. We do not use advertising networks, analytics providers or social media tools, and we do not sell or share personal information, because we do not collect any.</p>
+  </section>
+
+  <section id="permissions">
+    <h2>Permissions</h2>
+    <p>The game does not request any runtime permissions. It declares the standard Google Play billing permission so that in-app purchases work.</p>
+  </section>
+
+  <section id="children">
+    <h2>Children</h2>
+    <p>Slow Fight is not directed at children under 13, and we do not knowingly collect personal information from anyone. If you believe a child has sent us personal information, write to us and we will delete it.</p>
+  </section>
+
+  <section id="security">
+    <h2>Security and retention</h2>
+    <p>Because we do not collect personal information, we hold nothing about you on our side. Data on your phone is protected by Android’s app sandbox.</p>
+  </section>
+
+  <section id="choices">
+    <h2>Your choices</h2>
+    <ul class="plain">
+      <li>To remove all game data, uninstall the game or open Settings, then Apps, then Slow Fight, then Storage, and choose Clear storage. This also resets your coins and unlocked planes, and we cannot restore them.</li>
+      <li>To review or ask for a refund on a purchase, use Google Play’s order history or contact Google Play support.</li>
+      <li>Because we hold no personal information about you, there is nothing for us to access, correct or delete on our side. You are still welcome to write to us with any request.</li>
+    </ul>
+  </section>
+
+  <section id="changes">
+    <h2>Changes to this policy</h2>
+    <p>If we change how the game handles data, for example by adding online features, we will update this page and the “Last updated” date before the change goes live. The same text is available inside the game under Privacy.</p>
+  </section>
+
+  <aside class="plate" aria-labelledby="contact">
+    <h2 id="contact">Contact</h2>
+    <p style="margin:0">AD_oisal Ahmed<br><a href="mailto:md69309@gmail.com">md69309@gmail.com</a></p>
+  </aside>
+
+</main>
+
+<footer>
+  © 2026 AD_oisal Ahmed. Slow Fight is an independent game and is not affiliated with Google.
+</footer>
+
+</body>
+</html>
