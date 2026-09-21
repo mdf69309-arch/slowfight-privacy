@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Slow Fight – Privacy Policy</title>
-<meta name="description" content="Privacy policy for the Android game Slow Fight. The game collects no personal information.">
+<meta name="description" content="Privacy policy for the Android game Slow Fight.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700;1,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
@@ -246,7 +246,7 @@
   <div class="sky-copy">
     <p class="game">Slow Fight</p>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated September 20, 2026</p>
+    <p class="updated">Last updated September 21, 2026</p>
   </div>
 </header>
 
@@ -255,28 +255,34 @@
   <aside class="plate" aria-labelledby="short">
     <h2 id="short">The short version</h2>
     <ul class="plain">
-      <li>Slow Fight collects no personal information.</li>
-      <li>There are no accounts, no ads and no analytics.</li>
-      <li>Your score, coins and settings stay on your phone.</li>
-      <li>Purchases are handled entirely by Google Play.</li>
+      <li>Slow Fight uses Google Sign-In so your progress can follow you across devices.</li>
+      <li>We store your coin balance, high score and purchase history under your account.</li>
+      <li>We collect only your Google email, name and profile photo — nothing more.</li>
+      <li>There is no advertising and no third-party analytics or tracking SDK.</li>
+      <li>Purchases are handled entirely by Google Play; we never see your payment details.</li>
     </ul>
     <p class="note" style="margin:0">The sections below explain each point in detail.</p>
   </aside>
 
   <section id="who">
     <h2>Who we are</h2>
-    <p>Slow Fight (“the game”) is an Android game published by AD_Foisal Ahmed (“we”, “us”). If you have any question about this policy, write to us at <a href="mailto:md69309@gmail.com">md69309@gmail.com</a>.</p>
+    <p>Slow Fight (“the game”) is an Android game published by AD_ Foisal Ahmed (“we”, “us”). If you have any question about this policy, write to us at <a href="mailto:mdf69309@gmail.com">mdf69309@gmail.com</a>.</p>
   </section>
 
   <section id="collect">
     <h2>Information we collect</h2>
-    <p class="lead">None.</p>
-    <p>The game does not ask for your name, email address, phone number or any other personal detail. It has no sign-in, and it does not use your location, contacts, camera, microphone, photos or files. It contains no advertising, analytics or crash-reporting services, and it does not send information to servers run by us.</p>
+    <p>When you sign in with Google, we receive and store the following basic profile information:</p>
+    <ul class="plain">
+      <li>Your email address</li>
+      <li>Your display name</li>
+      <li>Your profile photo URL</li>
+    </ul>
+    <p>We do not access your contacts, location, camera, microphone, photos, files, or any other Google account data beyond the basic sign-in profile above. The game contains no advertising SDKs and no third-party analytics or crash-reporting trackers.</p>
   </section>
 
   <section id="device">
     <h2>What is stored on your device</h2>
-    <p>To remember your progress, the game keeps a small amount of data in its private storage on your phone:</p>
+    <p>The game also keeps a small amount of data in its private local storage on your phone, so it works even offline:</p>
     <dl>
       <dt>High score</dt>
       <dd>Your best score, shown on the main screen.</dd>
@@ -289,58 +295,76 @@
       <dt>Purchase records</dt>
       <dd>Identifiers of completed purchases, kept only so the same purchase is never credited twice.</dd>
     </dl>
-    <p>This data never leaves your device. Other apps cannot read it, and it is deleted when you uninstall the game or clear its storage.</p>
+    <p>This local copy is deleted when you uninstall the game or clear its storage.</p>
+  </section>
+
+  <section id="cloud">
+    <h2>What is stored in the cloud</h2>
+    <p>Once you sign in, the following is also saved to our Firebase account, linked to your Google account:</p>
+    <ul class="plain">
+      <li>Your email address, name and profile photo (shown on your in-game profile screen)</li>
+      <li>Your coin balance and high score, so progress carries over between devices</li>
+      <li>A history of completed coin purchases, including the transaction / order ID, product, price and date, shown to you under Profile &rarr; Purchase History</li>
+    </ul>
+    <p>This data is stored securely with Google Firebase (Authentication and Realtime Database) and is only ever readable by your own signed-in account.</p>
   </section>
 
   <section id="purchases">
     <h2>In-app purchases</h2>
     <p>Coin packs are sold through Google Play Billing. Payment happens inside Google Play, so your card number, payment method and billing details go to Google and are never visible to the game or to us.</p>
-    <p>Google provides us with standard sales records in Play Console, such as the order number, the product, the amount, and the country and date of purchase. We use these only for accounting, refunds and customer support. How Google handles your payment information is described in the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> and the <a href="https://play.google.com/about/play-terms/" rel="noopener">Google Play Terms of Service</a>.</p>
+    <p>Google provides us with standard sales records in Play Console, such as the order number, the product, the amount, and the country and date of purchase. A copy of the order ID, product and price is also saved to your in-game purchase history as described above. We use this data only for accounting, refunds and customer support. How Google handles your payment information is described in the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> and the <a href="https://play.google.com/about/play-terms/" rel="noopener">Google Play Terms of Service</a>.</p>
   </section>
 
   <section id="third-parties">
     <h2>Third-party services</h2>
-    <p>The only outside service the game works with is Google Play, through the Google Play Billing Library. We do not use advertising networks, analytics providers or social media tools, and we do not sell or share personal information, because we do not collect any.</p>
+    <p>The game uses the following Google services to operate:</p>
+    <ul class="plain">
+      <li>Google Sign-In / Firebase Authentication — to sign you in</li>
+      <li>Firebase Realtime Database — to store your coins, high score and purchase history</li>
+      <li>Google Play Billing — to process in-app purchases</li>
+    </ul>
+    <p>We do not use advertising networks, third-party analytics or social media SDKs, and we do not sell or share your personal information with anyone outside of the Google services listed above. See the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> for details on how Google handles this data.</p>
   </section>
 
   <section id="permissions">
     <h2>Permissions</h2>
-    <p>The game does not request any runtime permissions. It declares the standard Google Play billing permission so that in-app purchases work.</p>
+    <p>The game requests internet access so it can sign you in and sync your progress, and it declares the standard Google Play billing permission so that in-app purchases work. It does not request camera, microphone, location, contacts or storage permissions.</p>
   </section>
 
   <section id="children">
     <h2>Children</h2>
-    <p>Slow Fight is not directed at children under 13, and we do not knowingly collect personal information from anyone. If you believe a child has sent us personal information, write to us and we will delete it.</p>
+    <p>Slow Fight is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has created an account or sent us personal information, write to us and we will delete it.</p>
   </section>
 
   <section id="security">
     <h2>Security and retention</h2>
-    <p>Because we do not collect personal information, we hold nothing about you on our side. Data on your phone is protected by Android’s app sandbox.</p>
+    <p>Your cloud data is stored using Google Firebase and protected by Firebase security rules, so only your own signed-in account can read or write it. We keep your account data for as long as you use the game, or until you ask us to delete it.</p>
   </section>
 
   <section id="choices">
     <h2>Your choices</h2>
     <ul class="plain">
-      <li>To remove all game data, uninstall the game or open Settings, then Apps, then Slow Fight, then Storage, and choose Clear storage. This also resets your coins and unlocked planes, and we cannot restore them.</li>
+      <li>To delete your cloud data (email, name, photo, coins, high score and purchase history), email us at <a href="mailto:mdf69309@gmail.com">mdf69309@gmail.com</a> with the email address you signed in with, and we will delete it.</li>
+      <li>To remove local data on this device, open Settings, then Apps, then Slow Fight, then Storage, and choose Clear storage, or uninstall the game. This does not delete your cloud data.</li>
       <li>To review or ask for a refund on a purchase, use Google Play’s order history or contact Google Play support.</li>
-      <li>Because we hold no personal information about you, there is nothing for us to access, correct or delete on our side. You are still welcome to write to us with any request.</li>
+      <li>You can stop using the game and revoke Slow Fight’s access to your Google account at any time from your Google Account settings.</li>
     </ul>
   </section>
 
   <section id="changes">
     <h2>Changes to this policy</h2>
-    <p>If we change how the game handles data, for example by adding online features, we will update this page and the “Last updated” date before the change goes live. The same text is available inside the game under Privacy.</p>
+    <p>If we change how the game handles data, we will update this page and the “Last updated” date before the change goes live. The same text is available inside the game under Privacy.</p>
   </section>
 
   <aside class="plate" aria-labelledby="contact">
     <h2 id="contact">Contact</h2>
-    <p style="margin:0">AD_Foisal Ahmed<br><a href="mailto:md69309@gmail.com">md69309@gmail.com</a></p>
+    <p style="margin:0">AD_ Foisal Ahmed<br><a href="mailto:mdf69309@gmail.com">mdf69309@gmail.com</a></p>
   </aside>
 
 </main>
 
 <footer>
-  © 2026 AD_Foisal Ahmed. Slow Fight is an independent game and is not affiliated with Google.
+  © 2026 AD_ Foisal Ahmed. Slow Fight is an independent game and is not affiliated with Google.
 </footer>
 
 </body>
